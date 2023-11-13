@@ -1,0 +1,45 @@
+html,
+body,
+#root
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #153360;
+}
+
+#btn-2D {
+    pointer-events: all;
+    opacity: 1;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    translate: -50% 0;
+    background: #2190B4;
+    text-decoration: none !important;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 1000px;
+    font-family: Inter, sans-serif;
+    box-shadow: 0 5px 30px -5px #2190B4;
+    font-size: 20px;
+    transition: all 200ms ease;
+}
+
+#btn-2D:hover {
+    scale: 1.1;
+}
+
+.r3f {
+    touch-action: none;
+}
+
+.html-screen iframe {
+    width: 1024px;
+    height: 670px;
+    border: none;
+    border-radius: 20px;
+    background: #000000;
+}
