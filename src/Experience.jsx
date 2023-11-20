@@ -11,7 +11,7 @@ import {
 
 export default function Experience()
 {
-    const computer = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf');
+    const computer = useGLTF('macbook.gltf');
 
     useEffect(() => {
         if (!!computer.scene) {
