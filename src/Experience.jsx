@@ -11,7 +11,7 @@ import {
 
 export default function Experience()
 {
-    const computer = useGLTF('macbook.gltf');
+    const computer = useGLTF('./macbook.gltf');
 
     useEffect(() => {
         if (!!computer.scene) {
